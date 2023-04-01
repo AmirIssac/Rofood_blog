@@ -1,6 +1,6 @@
 @extends('layout.main')
 @section('link')
-<link rel="stylesheet" href="{{asset('css/all.min.css')}}" />
+<link rel="stylesheet" href="{{asset('public/css/all.min.css')}}" />
 <style>
     .blogs {
         padding: 40px 0;
@@ -71,7 +71,7 @@
                 @foreach($blogs as $blog)
                     <div class="col-sm-6 col-md-4">
                         <div class="blog">
-                            <img src="{{asset('storage/'.$blog->image)}}" alt="blog-image">
+                            <img src="{{asset('public/storage/'.$blog->image)}}" alt="blog-image">
                             <h5 class="title">{{$blog->title}}</h5>
                             <a href="{{route('blog.details',$blog->id)}}" class="blog-details-btn">ابدأ القراءة</a>
                         </div>

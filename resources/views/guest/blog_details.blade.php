@@ -1,6 +1,6 @@
 @extends('layout.main')
 @section('link')
-<link rel="stylesheet" href="{{asset('css/all.min.css')}}" />
+<link rel="stylesheet" href="{{asset('public/css/all.min.css')}}" />
 <style>
  .blog-details.rtl{
         text-align: right;
@@ -86,7 +86,7 @@
           </div>
         </div>
         <div class="col-md-6">
-          <img src="{{asset('storage/'.$blog->image)}}" class="w-100" alt="">
+          <img src="{{asset('public/storage/'.$blog->image)}}" class="w-100" alt="">
         </div>
         <div class="col-12">
           <div class="paragraph">
@@ -99,7 +99,7 @@
           <div class="paragraph">
             <h5>{{$subBlog->title}}</h5>
             <div>
-                <img src="{{asset('storage/'.$subBlog->image)}}" height="250px;">
+                <img src="{{asset('public/storage/'.$subBlog->image)}}" height="250px;">
             </div>
             <hr>
             <p>{{$subBlog->paragraph}}</p>
@@ -115,7 +115,7 @@
         @foreach($related_blogs as $related_blog)
           <div class="col-sm-6 col-md-3">
             <a href="" class="related-blog">
-              <img src="{{asset('storage/'.$related_blog->image)}}" class="w-100 rounded" alt="">
+              <img src="{{asset('public/storage/'.$related_blog->image)}}" class="w-100 rounded" alt="">
               <div class="title">{{$related_blog->title}}</div>
             </a>
           </div>

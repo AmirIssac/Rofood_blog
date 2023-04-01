@@ -52,7 +52,7 @@
                 <span>
                     <input type="file" name="image">
                 </span>
-                <img src="{{asset('storage/'.$blog->image)}}" height="150px;">
+                <img src="{{asset('public/storage/'.$blog->image)}}" height="150px;">
                 {{--
                 <input type="hidden" name="img" value="src">
                 <span>

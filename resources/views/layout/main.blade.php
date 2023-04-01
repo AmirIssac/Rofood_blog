@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rofood</title>
     <!--External Links-->
-    <link rel="stylesheet" href="{{asset('css/index.css')}}">
+    <link rel="stylesheet" href="{{asset('public/css/index.css')}}">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-    <link rel="stylesheet" href="{{asset('css/all.min.css')}}">
+    <link rel="stylesheet" href="{{asset('public/css/all.min.css')}}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@600;700&family=Poppins:wght@500&family=Roboto&display=swap" rel="stylesheet">
@@ -75,7 +75,7 @@
 </div>
 
 <section class="navbar-brand" >
-    <img src="{{asset('img/logo.jpeg')}}" alt="" width="100px" style="border-radius: 50%;">
+    <img src="{{asset('public/img/logo.jpeg')}}" alt="" width="100px" style="border-radius: 50%;">
 </section>
     </div>
     </nav>
@@ -120,7 +120,7 @@
         </div>
 
         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-            <img src="{{asset('img/logo.jpeg')}}" style="border-radius: 50%; width: 120px;">
+            <img src="{{asset('public/img/logo.jpeg')}}" style="border-radius: 50%; width: 120px;">
         </div>
     </div>
 
@@ -154,9 +154,9 @@
     </div>
 </footer>
 <div class="whats">
-    <i onclick="whats()"><img src="{{asset('img/whatsapp_icon.png')}}" alt="" width="100px"></i>
+    <i onclick="whats()"><img src="{{asset('public/img/whatsapp_icon.png')}}" alt="" width="100px"></i>
 </div>
-    <script src="{{asset('js/index.js')}}"></script>
+    <script src="{{asset('public/js/index.js')}}"></script>
 
     @yield('script')
 

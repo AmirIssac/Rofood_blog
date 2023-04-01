@@ -1,7 +1,7 @@
 @extends('layout.main')
 @section('link')
 
-<link rel="stylesheet" href="{{asset('css/prices.css')}}">
+<link rel="stylesheet" href="{{asset('public/css/prices.css')}}">
 
 <style>
     body{

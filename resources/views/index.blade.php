@@ -13,7 +13,7 @@
 </div>
 </div>
 <div class="row justify-content-center mt-4">
-<img src="{{asset('img/img1.png')}}" alt="" class="col col-xl-7">
+<img src="{{asset('public/img/img1.png')}}" alt="" class="col col-xl-7">
 </div>
     </section>
 
@@ -78,7 +78,7 @@
         </h1>
         <h2 class="p-2">تزوّد بالأدوات المثاليّة لمشروعٍ ناجح.
         </h2>
-        <img src="{{asset('img/image.png')}}" alt="" width="300px">
+        <img src="{{asset('public/img/image.png')}}" alt="" width="300px">
         <button onclick="signup()" class="Sign-Up-ceneter"> حساب تجريبي</button>
     </div>
     </div>
@@ -90,11 +90,11 @@
 قنوات الربط
     </h2>
     <div class="container">
-    <img src="{{asset('img/earth-2.0.png')}}" alt="" width="200px">
-    <img src="{{asset('img/aven.png')}}" alt="" width="200px">
-    <img src="{{asset('img/hex-lab.png')}}" alt="" width="200px">
-    <img src="{{asset('img/lighting.png')}}" alt="" width="200px">
-    <img src="{{asset('img/ideaa.png')}}" alt="" width="200px">
+    <img src="{{asset('public/img/earth-2.0.png')}}" alt="" width="200px">
+    <img src="{{asset('public/img/aven.png')}}" alt="" width="200px">
+    <img src="{{asset('public/img/hex-lab.png')}}" alt="" width="200px">
+    <img src="{{asset('public/img/lighting.png')}}" alt="" width="200px">
+    <img src="{{asset('public/img/ideaa.png')}}" alt="" width="200px">
 </div>
 </section>
 
