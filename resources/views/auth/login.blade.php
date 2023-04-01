@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>تسجيل دخول أدمن</title>
-    <link rel="stylesheet" href="{{asset('css/login.css')}}">
+    <link rel="stylesheet" href="{{asset('public/css/login.css')}}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
@@ -34,6 +34,6 @@
           </a>
         </form>
       </div>
-    <script src="{{asset('js/login.js')}}"></script>
+    <script src="{{asset('public/js/login.js')}}"></script>
 </body>
 </html>
